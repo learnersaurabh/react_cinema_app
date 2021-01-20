@@ -1,0 +1,33 @@
+.nav{
+    position:fixed;
+    top: 0%;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+}
+.app__logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    object-fit: contain;
+}
+.app__logo:hover{
+    cursor: pointer;
+}
+
+.avtar__logo{
+    width:30px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.avtar__logo:hover{
+    cursor: pointer;
+}
+.nav__background{
+    background-color: rgb(12, 12, 12);
+    padding-bottom: 5px;
+}
